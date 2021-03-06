@@ -36,9 +36,13 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
       - name: Install dependencies
         run: bundle install
+      - name: Install Appraisal dependencies
+        run: bundle exec appraisal install
       - name: Setup the environment
         run: cp .sample.env .env
       - name: Setup the database
         run: bundle exec rake db:setup
       - name: Run tests
         run: bundle exec rake
+      - name: Run Appraisals
+        run: bundle exec appraisal rake
