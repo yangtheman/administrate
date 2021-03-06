@@ -5,6 +5,11 @@ on: [push]
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        ruby: [2.5, 2.6, 2.7, head, debug]
+    continue-on-error: ${{ endsWith(matrix.ruby, 'head') || matrix.ruby == 'debug' }}
     env:
       PGHOST: localhost
       PGUSER: administrate
@@ -25,10 +30,10 @@ jobs:
           --health-retries 5
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Ruby
+      - name: Set up Ruby ${{ matrix.ruby }}
         uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: true
+          ruby-version: ${{ matrix.ruby }}
       - name: Install dependencies
         run: bundle install
       - name: Setup the environment
