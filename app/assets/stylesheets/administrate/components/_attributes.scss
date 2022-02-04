@@ -2,7 +2,7 @@
   @include data-label;
   clear: left;
   float: left;
-  margin-bottom: $base-spacing;
+  margin-bottom: var(--base-spacing);
   margin-top: 0.25em;
   text-align: right;
   width: calc(20% - 1rem);
@@ -15,7 +15,7 @@
 
 .attribute-data {
   float: left;
-  margin-bottom: $base-spacing;
+  margin-bottom: var(--base-spacing);
   margin-left: 2rem;
   width: calc(80% - 1rem);
   word-break: break-word;
@@ -23,5 +23,5 @@
 
 .attribute--nested {
   border: $base-border;
-  padding: $small-spacing;
+  padding: var(--small-spacing);
 }

@@ -6,16 +6,16 @@ input[type="submit"],
   appearance: none;
   background-color: $action-color;
   border: 0;
-  border-radius: $base-border-radius;
+  border-radius: var(--base-border-radius);
   color: $white;
   cursor: pointer;
   display: inline-block;
   font-family: var(--base-font-family);
-  font-size: $base-font-size;
+  font-size: var(--base-font-size);
   -webkit-font-smoothing: antialiased;
-  font-weight: $bold-font-weight;
+  font-weight: var(--bold-font-weight);
   line-height: 1;
-  padding: $small-spacing $base-spacing;
+  padding: var(--small-spacing) var(--base-spacing);
   text-decoration: none;
   transition: background-color $base-duration $base-timing;
   user-select: none;
@@ -50,5 +50,5 @@ input[type="submit"],
 }
 
 .button--nav {
-  margin-bottom: $base-spacing;
+  margin-bottom: var(--base-spacing);
 }

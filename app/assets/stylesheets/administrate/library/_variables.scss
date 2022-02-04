@@ -1,21 +1,3 @@
-// Typography
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  sans-serif !default;
-$heading-font-family: $base-font-family !default;
-
-$base-font-size: 1em !default;
-
-$bold-font-weight: 700 !default;
-
-$base-line-height: 1.5 !default;
-$heading-line-height: 1.2 !default;
-
-// Other Sizes
-$base-border-radius: 4px !default;
-$base-spacing: $base-line-height * 1em !default;
-$small-spacing: $base-spacing / 2 !default;
-
 // Colors
 $white: #fff !default;
 $black: #000 !default;

@@ -4,4 +4,13 @@
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
     --heading-font-family: var(--base-font-family);
+    --base-font-size: 1em;
+    --bold-font-weight: 700;
+    --base-line-height: 1.5;
+    --heading-line-height: 1.2;
+
+    /* Sizes */
+    --base-border-radius: 4px;
+    --base-spacing: calc(var(--base-line-height) * 1em);
+    --small-spacing: calc(var(--base-spacing) / 2);
 }
