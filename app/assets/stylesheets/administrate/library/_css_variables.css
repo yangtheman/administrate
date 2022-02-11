@@ -25,6 +25,9 @@
     --grey-7: #293f54;
     --hint-grey: #7b808c;
 
+    /* Font Colors */
+    --base-font-color: var(--grey-7);
+
     /* Mixed Colors */
     --black-white-5: #f2f2f2;
 }
