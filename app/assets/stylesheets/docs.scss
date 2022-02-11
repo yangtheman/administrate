@@ -1,7 +1,6 @@
 $blue: #53adc6;
 $red: #cf726e;
 $green: #5bc89e;
-$white: #f0f0f0;
 
 $code-black: #202020;
 $code-white: #e0e0dc;
@@ -9,6 +8,10 @@ $code-green: #b0bf82;
 $code-blue: #8fbdcc;
 $code-yellow: #f8d29d;
 $code-red: #b95c56;
+
+:root {
+  --white: #f0f0f0
+}
 
 html,
 body {
@@ -59,7 +62,7 @@ a {
 
 .flash-wrapper {
   background-color: $red;
-  color: $white;
+  color: var(--white);
   padding: 1em;
 
   .flash {

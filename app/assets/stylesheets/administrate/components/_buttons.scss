@@ -7,7 +7,7 @@ input[type="submit"],
   background-color: $action-color;
   border: 0;
   border-radius: var(--base-border-radius);
-  color: $white;
+  color: var(--white);
   cursor: pointer;
   display: inline-block;
   font-family: var(--base-font-family);
@@ -24,7 +24,7 @@ input[type="submit"],
 
   &:hover {
     background-color: mix($black, $action-color, 20%);
-    color: $white;
+    color: var(--white);
   }
 
   &:focus {

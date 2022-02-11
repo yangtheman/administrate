@@ -13,4 +13,8 @@
     --base-border-radius: 4px;
     --base-spacing: calc(var(--base-line-height) * 1em);
     --small-spacing: calc(var(--base-spacing) / 2);
+
+    /* Colors */
+    --white-rgb: 255, 255, 255;
+    --white: rgb(var(--white-rgb));
 }
