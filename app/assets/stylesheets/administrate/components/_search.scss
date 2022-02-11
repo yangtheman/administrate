@@ -41,6 +41,6 @@ $_search-icon-size: 1rem;
   width: $_search-icon-size;
 
   &:hover {
-    fill: $action-color;
+    fill: var(--action-color);
   }
 }

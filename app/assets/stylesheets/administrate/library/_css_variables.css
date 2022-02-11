@@ -19,7 +19,8 @@
     --white: rgb(var(--white-rgb));
     --black-rgb: 0, 0, 0;
     --black: rgb(var(--black-rgb));
-    --blue: #1976d2;
+    --blue-rgb: 25, 118, 210;
+    --blue: rgb(var(--blue-rgb));
     --red: #d32f2f;
     --grey-5: #adb5bd;
     --grey-7: #293f54;
@@ -27,7 +28,11 @@
 
     /* Font Colors */
     --base-font-color: var(--grey-7);
+    --action-color-rgb: var(--blue-rgb);
+    --action-color: var(--blue);
 
     /* Mixed Colors */
     --black-white-5: #f2f2f2;
+    --black-action-25: #13599e;
+    --black-action-20: #145ea8;
 }

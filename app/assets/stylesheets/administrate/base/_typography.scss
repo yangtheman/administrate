@@ -22,12 +22,12 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: var(--action-color);
   text-decoration-skip-ink: auto;
   transition: color $base-duration $base-timing;
 
   &:hover {
-    color: mix($black, $action-color, 25%);
+    color: var(--black-action-25);
   }
 
   &:focus {
