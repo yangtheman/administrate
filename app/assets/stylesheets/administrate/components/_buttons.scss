@@ -44,7 +44,7 @@ input[type="submit"],
 
 .button--alt {
   background-color: transparent;
-  border: $base-border;
+  border: var(--base-border);
   border-color: var(--blue);
   color: var(--blue);
 }

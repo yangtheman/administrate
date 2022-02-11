@@ -42,6 +42,7 @@
 
     /* Border */
     --base-border-color: #dfe0e1;
+    --base-border: 1px solid var(--base-border-color);
 
     /* Transitions */
     --base-duration: 250ms;
