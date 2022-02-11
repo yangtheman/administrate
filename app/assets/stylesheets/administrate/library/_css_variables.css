@@ -31,8 +31,12 @@
     --action-color-rgb: var(--blue-rgb);
     --action-color: var(--blue);
 
+    /* Background Colors */
+    --base-background-color: #f6f7f7;
+
     /* Mixed Colors */
     --black-white-5: #f2f2f2;
     --black-action-25: #13599e;
     --black-action-20: #145ea8;
+    --black-base-bg-5: #eaebeb;
 }
