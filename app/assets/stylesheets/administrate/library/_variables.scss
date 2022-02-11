@@ -1,7 +1,6 @@
 // Colors
 $black: #000 !default;
 
-$blue: #1976d2 !default;
 $red: #d32f2f !default;
 $light-yellow: #fff6bf !default;
 $light-red: #fbe3e4 !default;
@@ -18,7 +17,7 @@ $hint-grey: #7b808c !default;
 
 // Font Colors
 $base-font-color: $grey-7 !default;
-$action-color: $blue !default;
+$action-color: var(--blue);
 
 // Background Colors
 $base-background-color: $grey-0 !default;

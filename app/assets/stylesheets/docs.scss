@@ -1,4 +1,3 @@
-$blue: #53adc6;
 $red: #cf726e;
 $green: #5bc89e;
 
@@ -10,7 +9,8 @@ $code-yellow: #f8d29d;
 $code-red: #b95c56;
 
 :root {
-  --white: #f0f0f0
+  --white: #f0f0f0;
+  --blue: #53adc6;
 }
 
 html,
@@ -33,7 +33,7 @@ h3 {
 }
 
 a {
-  color: $blue;
+  color: var(--blue);
   text-decoration: none;
 }
 
