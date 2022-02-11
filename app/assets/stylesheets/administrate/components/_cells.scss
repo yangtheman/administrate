@@ -15,7 +15,7 @@
   a {
     color: inherit;
     display: inline-block;
-    transition: color $base-duration $base-timing;
+    transition: color var(--base-duration) var(--base-timing);
     width: 100%;
   }
 }
@@ -32,7 +32,7 @@
   svg {
     fill: var(--hint-grey);
     height: 13px;
-    transition: transform $base-duration $base-timing;
+    transition: transform var(--base-duration) var(--base-timing);
     width: 13px;
   }
 }

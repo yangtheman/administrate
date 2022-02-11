@@ -13,8 +13,8 @@ $_navigation-link-padding: 0.6em;
   line-height: 1;
   margin-left: -($_navigation-link-padding);
   padding: $_navigation-link-padding;
-  transition: background-color $base-duration $base-timing,
-              color $base-duration $base-timing;
+  transition: background-color var(--base-duration) var(--base-timing),
+              color var(--base-duration) var(--base-timing);
 
   &:not(:last-of-type) {
     margin-bottom: var(--small-spacing);

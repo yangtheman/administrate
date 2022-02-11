@@ -17,7 +17,7 @@ input[type="submit"],
   line-height: 1;
   padding: var(--small-spacing) var(--base-spacing);
   text-decoration: none;
-  transition: background-color $base-duration $base-timing;
+  transition: background-color var(--base-duration) var(--base-timing);
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;

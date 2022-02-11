@@ -43,10 +43,20 @@
     /* Border */
     --base-border-color: #dfe0e1;
 
+    /* Transitions */
+    --base-duration: 250ms;
+    --base-timing: ease-in-out;
+
     /* Mixed Colors */
     --black-white-5: #f2f2f2;
     --black-action-25: #13599e;
     --black-action-20: #145ea8;
     --black-base-bg-5: #eaebeb;
     --black-base-border-20: #b2b3b4;
+}
+
+@media (prefers-reduced-motion) {
+    :root {
+        --base-duration: 0ms;
+    }
 }

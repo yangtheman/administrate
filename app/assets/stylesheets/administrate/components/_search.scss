@@ -37,7 +37,7 @@ $_search-icon-size: 1rem;
   fill: var(--grey-5);
   height: $_search-icon-size;
   position: absolute;
-  transition: fill $base-duration $base-timing;
+  transition: fill var(--base-duration) var(--base-timing);
   width: $_search-icon-size;
 
   &:hover {
