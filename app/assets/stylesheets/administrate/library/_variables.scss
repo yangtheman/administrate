@@ -1,11 +1,6 @@
 // Colors
 $black: #000 !default;
 
-$light-yellow: #fff6bf !default;
-$light-red: #fbe3e4 !default;
-$light-green: #e6efc2 !default;
-$light-blue: #e5edf8 !default;
-
 $grey-0: #f6f7f7 !default;
 $grey-1: #dfe0e1 !default;
 $grey-2: #cfd8dc !default;
@@ -27,13 +22,7 @@ $focus-outline-width: 3px;
 $focus-outline: $focus-outline-width solid $focus-outline-color;
 $focus-outline-offset: 1px;
 
-// Flash Colors
-$flashes: (
-  "alert": $light-yellow,
-  "error": $light-red,
-  "notice": $light-blue,
-  "success": $light-green
-) !default;
+
 
 // Border
 $base-border-color: $grey-1 !default;

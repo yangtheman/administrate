@@ -1,3 +1,16 @@
+$light-yellow: #fff6bf !default;
+$light-red: #fbe3e4 !default;
+$light-green: #e6efc2 !default;
+$light-blue: #e5edf8 !default;
+
+// Flash Colors
+$flashes: (
+        "alert": $light-yellow,
+        "error": $light-red,
+        "notice": $light-blue,
+        "success": $light-green
+) !default;
+
 @each $flash-type, $color in $flashes {
   .flash-#{$flash-type} {
     background-color: $color;
