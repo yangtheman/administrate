@@ -34,6 +34,9 @@
     /* Background Colors */
     --base-background-color: #f6f7f7;
 
+    /* Focus */
+    --focus-outline-color: rgba(var(--action-color-rgb), 0.6);
+
     /* Mixed Colors */
     --black-white-5: #f2f2f2;
     --black-action-25: #13599e;
