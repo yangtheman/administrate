@@ -1,9 +1,5 @@
-// Colors
-$black: #000 !default;
-
 // Border
-$base-border-color: #dfe0e1 !default;
-$base-border: 1px solid $base-border-color !default;
+$base-border: 1px solid var(--base-border-color) !default;
 
 // Transitions
 $base-duration: 250ms !default;

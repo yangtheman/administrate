@@ -40,9 +40,13 @@
     --focus-outline: var(--focus-outline-width) solid var(--focus-outline-color);
     --focus-outline-offset: 1px;
 
+    /* Border */
+    --base-border-color: #dfe0e1;
+
     /* Mixed Colors */
     --black-white-5: #f2f2f2;
     --black-action-25: #13599e;
     --black-action-20: #145ea8;
     --black-base-bg-5: #eaebeb;
+    --black-base-border-20: #b2b3b4;
 }
