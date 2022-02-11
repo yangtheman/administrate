@@ -37,6 +37,8 @@
     /* Focus */
     --focus-outline-color: rgba(var(--action-color-rgb), 0.6);
     --focus-outline-width: 3px;
+    --focus-outline: var(--focus-outline-width) solid var(--focus-outline-color);
+    --focus-outline-offset: 1px;
 
     /* Mixed Colors */
     --black-white-5: #f2f2f2;
